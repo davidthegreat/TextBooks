@@ -4,17 +4,52 @@
         <meta charset="utf-8" />
         <title>{+title /}</title>
     
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/app.css">
-    
+        <link rel="stylesheet" href="/css/foundation.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-
-        <div id="wrapper">
-            {+body /}
-        </div>
-
+<div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-inverse">
+          <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">TextBooks</a>
+                </div>
+                <ul class="nav navbar-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Cart</a></li>
+                </ul>
+          </div>
+      </nav>
+    </div>
+</div>       
+    <div class="row">
+            <div class="col-md-12">
+                {+body /}
+            </div>
+        </div> 
+          
     
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+                <p>TextBooks &copy 2015 | <a href="/manage">Manage</a></p>
+            </div>
+        </div>  
+    </footer>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script data-main="/js/app" src="/components/requirejs/require.js"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/vendor/jquery.js"></script>
+        <script src="/js/vendor/foundation.min.js"></script>
+        <script src="/js/main.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
     
     </body>
 </html>
