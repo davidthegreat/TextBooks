@@ -1,5 +1,39 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+    <div class="col-md-3 book">
+    	<img src="/img/mean.jpg">
+    	<h4>Mean book<h4>
+    	<p>Fam tofu raw denim man braid, bespoke retro celiac blue bottle fixie hammock hell of DIY pitchfork pickled banjo.</p>
+    	<div class="price">Buy it for <span>$19.99</span></div>
+    	<br>
+    	<a href="/books/details/1" class="button small">Book Details</a>
+    </div>
+
+    <div class="col-md-3 book">
+    	<img src="/img/ruby.jpg">
+    	<h4>ruby book<h4>
+    	<p>Fam tofu raw denim man braid, bespoke retro celiac blue bottle fixie hammock hell of DIY pitchfork pickled banjo.</p>
+    	<div class="price">Buy it for <span>$19.99</span></div>
+    	<br>
+    	<a href="/books/details/1" class="button small">Book Details</a>
+    </div>
+
+    <div class="col-md-3 book">
+    	<img src="/img/nodeJs.jpg">
+    	<h4>nodejs book<h4>
+    	<p>Fam tofu raw denim man braid, bespoke retro celiac blue bottle fixie hammock hell of DIY pitchfork pickled banjo.</p>
+    	<div class="price">Buy it for <span>$19.99</span></div>
+    	<br>
+    	<a href="/books/details/3" class="button small">Book Details</a>
+    </div>
+
+    <div class="col-md-3 book">
+    	<img src="/img/Angular.jpg">
+    	<h4>Angular book<h4>
+    	<p>Fam tofu raw denim man braid, bespoke retro celiac blue bottle fixie hammock hell of DIY pitchfork pickled banjo.</p>
+    	<div class="price">Buy it for <span>$19.99</span></div>
+    	<br>
+    	<a href="/books/details/4" class="button small">Book Details</a>
+    </div>
 {/body}
